@@ -1,0 +1,90 @@
+#start {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .bottom-triangles {
+        background-image: url("data:image/svg+xml,%3csvg%20width='227'%20height='63'%20viewBox='0%200%20227%2063'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20y='14'%20width='227'%20height='49'%20fill='%232F53B6'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M37.8%200L75.6%2014.175H0L37.8%200Z'%20fill='%232F53B6'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M113.4%200L151.2%2014.175H75.6L113.4%200Z'%20fill='%232F53B6'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M189%200L226.8%2014.175H151.2L189%200Z'%20fill='%232F53B6'/%3e%3c/svg%3e");
+        width: 100%;
+        height: 3rem;
+        animation: slideToLeft 36s infinite linear;
+    }
+
+    ul {
+        position: absolute;
+        right: 1rem;
+        color: #eff8fb;
+        display: flex;
+        font-size: 20px;
+        gap: 1.6rem;
+        justify-content: flex-end;
+        line-height: 30px;
+        text-align: end;
+        flex-direction: column;
+        top: 20px;
+
+        li {
+            list-style-type: none;
+
+            a {
+                color: #eff8fb;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+
+                i {
+                    font-size: 2.5rem;
+                    margin-left: 0.5rem;
+                }
+
+                &:hover {
+                    color: #2f53b6;
+                }
+            }
+        }
+    }
+
+    .laptop {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        left: 48px;
+        top: -20px;
+        background-image: url("/laptop.svg");
+        background-size: cover;
+        animation: mirrorEffect 6s infinite;
+    }
+
+
+    @media screen and (max-width: 480px) {
+        .laptop {
+            height: 100px;
+            width: 100px;
+            top: 1rem;
+            left: 1.5rem;
+        }
+
+        ul {
+            font-size: 14px;
+
+            li a i {
+                font-size: 2em;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1020px) {
+        h1 {
+            margin: 0 1.5rem;
+        }
+
+        h3 {
+            margin: 0 1.5rem;
+            padding-bottom: 1rem;
+        }
+    }
+
+
+}

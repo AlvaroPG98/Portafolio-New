@@ -1,0 +1,52 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $font-family-primary;
+    background-color: $secondary-color;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+h1 {
+    color: $primary-color;
+    font-family: $font-family-secondary;
+    font-size: 6rem;
+    font-weight: 700;
+    margin: 0 48px;
+}
+
+h3 {
+    color: $text-color;
+    font-family: $font-family-primary;
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 48px;
+    margin: 0 48px 48px;
+}
+
+h2 {
+    font-size: 6rem;
+}
+
+p {
+    margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    h2,
+    h1 {
+        font-size: 3rem;
+    }
+}

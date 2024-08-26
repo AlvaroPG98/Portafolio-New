@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&amp;family=Rubik:wght@700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./icons//style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="stylesheet" href="index.css" /> -->
+    <title>ALVARO PORTILLO GUEVARA</title>
+  </head>
+  <body>
+    <div id="loader">
+      <div class="box-loader"></div>
+      <div class="box-loader"></div>
+      <div class="box-loader"></div>
+      <div class="image-loader"></div>
+    </div>
+
+    <a id="button-up" href="#start">
+      <span>Volver arriba</span> <i class="icon-chevron-up-solid"></i>
+    </a>
+
+    <main id="start">
+      <div class="laptop"></div>
+      <div></div>
+      <ul>
+        <li>
+          <a href="#about">Sobre mi <i class="icon-circle-info-solid"></i> </a>
+        </li>
+        <li>
+          <a href="#courses">
+            Cursos Realizados
+            <i class="icon-graduation-cap-solid"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#contact">Contacto <i class="icon-comment-solid"></i></a>
+        </li>
+      </ul>
+
+      <div class="end">
+        <h1>Alvaro Portillo Guevara</h1>
+        <h3>Estudiante de ingeniería informática y sistemas</h3>
+        <div class="bottom-triangles"></div>
+      </div>
+    </main>
+
+    <section id="about">
+      <div class="container">
+        <div class="content">
+          <h2>Sobre mi</h2>
+          <p>
+            Soy estudiante de ingeniería informática y sistemas y me considero
+            una persona muy perseverante, dinámica y con aspiraciones, y sobre
+            todo responsable. <br />
+            <br />
+
+            Además de eso, busco soluciones ante las adversidades del día a día,
+            en el trabajo o en mi vida personal; aprendo con rapidez y me
+            intereso por cumplir de manera adecuada con la puntualidad y
+            honestidad en las distintas actividades que realizo. <br />
+            <br />
+
+            Estas cualidades son fundamentales para mi desarrollo académico y
+            profesional.
+          </p>
+        </div>
+        <img src="./images/profile.webp" alt="Alvaro" class="image-profile" />
+      </div>
+
+      <div class="bottom-triangles"></div>
+    </section>
+
+    <section id="courses">
+      <h2>Cursos Realizados</h2>
+
+      <div class="container">
+        <aticle class="card">
+          <img src="./logos/CLEI.webp" alt="CLEI" class="card-img" />
+          <div class="card-content">
+            <p class="timeframe">16/10/2023 - 20/10/2023</p>
+            <p class="entity" style="color: #0e204c">CLEI</p>
+            <p class="course">Soporte Técnico</p>
+          </div>
+          <a href="./files/CLEI.pdf" class="link-certificate" target="_blank">
+            <span>Ver Certificado</span>
+            <i class="icon-file-certificate"></i>
+          </a>
+        </aticle>
+
+        <aticle class="card">
+          <img
+            src="./logos/google.webp"
+            alt="google activate"
+            class="card-img"
+          />
+          <div class="card-content">
+            <p class="timeframe">02/03/2023</p>
+            <p class="entity" style="color: #4285f4">Google Actívate</p>
+            <p class="course">Desarrollo de App Móviles</p>
+          </div>
+
+          <a href="./files/google.pdf" class="link-certificate" target="_blank">
+            <span>Ver Certificado</span>
+            <i class="icon-file-certificate"></i>
+          </a>
+        </aticle>
+
+        <aticle class="card">
+          <figure>
+            <img src="./logos/itec.webp" alt="camara" class="card-img" />
+          </figure>
+          <div class="card-content">
+            <p class="timeframe">04/01/2021 - 23/01/2021</p>
+            <p class="entity" style="color: #0969ab">Itec Perú</p>
+            <p class="course">Soporte Técnico</p>
+          </div>
+
+          <a href="./files/itec.pdf" class="link-certificate" target="_blank">
+            <span>Ver Certificado</span>
+            <i class="icon-file-certificate"></i>
+          </a>
+        </aticle>
+      </div>
+    </section>
+
+    <section id="contact">
+      <strong>Contáctame</strong>
+      <p>Puedes contactarme a través de los siguientes medios</p>
+
+      <div class="contacts">
+        <a
+          href="mailto:portilloalvaro85@gmail.com"
+          class="contact"
+          style="background-color: #ffa000"
+        >
+          <i class="icon-envelope-solid"></i> portilloalvaro85@gmail.com
+        </a>
+
+        <a
+          href="https://wa.me/51972876407"
+          class="contact"
+          style="background-color: #00c853"
+        >
+          <i class="icon-whatsapp-brands-solid"></i> +51 972876407
+        </a>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
